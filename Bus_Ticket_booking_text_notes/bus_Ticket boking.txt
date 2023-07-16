@@ -1,0 +1,95 @@
+Scenario: Bus Ticket Booking
+ 
+   FIELDS
+bus_number(pk)
+local_bus
+point_to_point_bus
+sleeper_bus
+bus_number(fk)
+from_which_place_bus_travelling
+destination_of_the_bus
+other_stops_while_travelling(null)
+district_of_the_bus
+sataff_id(pk)
+staff_name
+satff_posting
+satff_experience
+bus_number(fk)
+passender_ticket_id(pk)
+passenger_gender
+passenger_booked_bus
+bus_number(fk)
+from_which_place_passenger_travelling
+destination_of_passenger
+ticked_conformed
+bus_number(fk)
+days(pk)
+ticket_soled_per_day
+ticket_soled_per_month
+ticket_soled_per_year
+passesnger_ticket_id(fk)
+cancel_the_ticket
+reason_for_cancelation
+bus_number(fk)
+total_diatance_tavelled_per_day(fk)
+total_diatance_tavelled_per_week
+total_diatance_tavelled_per_month
+highest_income_in_a_week
+highest_income_in_a_month
+
+          TABLE NAME and FIELDS
+  bus_type
+bus_number(pk)
+local_bus
+point_to_point_bus
+sleeper_bus
+
+  Bus_destination
+bus_number(fk)
+from_which_place_bus_travelling
+destination_of_the_bus
+other_stops_while_travelling(null)
+district_of_the_bus
+
+  Staff_details
+sataff_id
+staff_name
+satff_posting
+satff_experience
+bus_number(fk)
+
+  ticket_datails
+passender_ticket_id(pk)
+passenger_gender
+passenger_booked_bus
+bus_number(fk)
+from_which_place_passenger_travelling
+destination_of_passenger
+ticked_conformed
+
+  Ticked_sold
+bus_number(fk)
+days(pk)
+ticket_soled_per_day
+ticket_soled_per_month
+ticket_soled_per_year
+
+  Ticket_cancelation
+passesnger_ticket_id(fk)
+cancel_the_ticket
+reason_for_cancelation
+
+ Bus_tavelling_distance
+bus_number(fk)
+total_diatance_tavelled_per_day(fk)
+total_diatance_tavelled_per_week
+total_diatance_tavelled_per_month
+highest_income_in_a_week
+highest_income_in_a_month
+
+
+
+NO OF FIELDS:35
+NO OF TABLES:07
+
+
